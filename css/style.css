@@ -243,8 +243,8 @@ footer {
 
   #subPara p {
     padding: 0 15px;
-    font-size: 28px;
   }
+
   .card {
     display: flex;
     flex-direction: column;
@@ -282,6 +282,10 @@ footer {
   }
   .footerContact p {
     margin-bottom: 15px;
+  }
+
+  .footerSocial {
+    text-align: center;
   }
 
   .Follow {
