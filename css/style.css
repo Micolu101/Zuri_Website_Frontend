@@ -241,10 +241,6 @@ footer {
     align-items: center;
   }
 
-  #subPara p {
-    padding: 0 15px;
-  }
-
   .card {
     display: flex;
     flex-direction: column;
@@ -256,7 +252,7 @@ footer {
 
   .content {
     background-color: #fffafa;
-    padding: 61px 55px 82px 36px;
+    padding: 61px 40px 82px 36px;
     margin: 20px;
   }
 
