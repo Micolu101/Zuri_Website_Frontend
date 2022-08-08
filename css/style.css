@@ -192,3 +192,75 @@ footer {
   font-weight: bold;
   font-size: 24px;
 }
+
+/* Responsiveness for Mobile devices*/
+@media screen and (max-width: 768px) {
+  body {
+    width: 100vh;
+  }
+
+  #intro {
+    padding-top: 7rem;
+    margin-bottom: 8rem;
+    width: 100vh;
+  }
+
+  .logo1 {
+    padding-bottom: 4rem;
+  }
+
+  #link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    padding-bottom: 5%;
+  }
+
+  .new,
+  .experience {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .new a {
+    margin-right: 0px;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
+  .experience a {
+    margin-right: 0px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+  }
+
+  .preFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+  }
+
+  .footerContact p {
+    line-height: 1;
+    text-align: center;
+  }
+  .content {
+    width: 100%;
+    background-color: #fffafa;
+    padding: 61px 150px 82px 36px;
+    margin: 20px;
+  }
+}
