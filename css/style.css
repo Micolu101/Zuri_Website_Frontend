@@ -195,18 +195,22 @@ footer {
 
 /* Responsiveness for Mobile devices*/
 @media screen and (max-width: 768px) {
-  body {
-    width: 100vh;
-  }
-
   #intro {
     padding-top: 7rem;
     margin-bottom: 8rem;
-    width: 100vh;
   }
 
   .logo1 {
     padding-bottom: 4rem;
+  }
+
+  .hIntro {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .pIntro {
+    margin: 0 5%;
   }
 
   #link {
@@ -237,12 +241,23 @@ footer {
     align-items: center;
   }
 
+  #subPara p {
+    padding: 0 15px;
+    font-size: 28px;
+  }
   .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 10%;
+    width: fit-content;
+  }
+
+  .content {
+    background-color: #fffafa;
+    padding: 61px 55px 82px 36px;
+    margin: 20px;
   }
 
   .preFooter {
@@ -251,16 +266,29 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 40px 0;
+    gap: 25px;
   }
 
-  .footerContact p {
-    line-height: 1;
+  .footerLink {
     text-align: center;
   }
-  .content {
-    width: 100%;
-    background-color: #fffafa;
-    padding: 61px 150px 82px 36px;
-    margin: 20px;
+
+  .preFooter h3 {
+    font-size: x-large;
+  }
+
+  .footerContact {
+    text-align: center;
+  }
+  .footerContact p {
+    margin-bottom: 15px;
+  }
+
+  .Follow {
+    margin-bottom: 5px;
+  }
+
+  .copyright {
+    font-size: 18px;
   }
 }
