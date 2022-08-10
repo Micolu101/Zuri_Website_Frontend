@@ -57,7 +57,7 @@ body {
   padding-bottom: 30%;
 }
 
-.new a {
+.new button {
   text-decoration: none;
   padding: 15px 30px;
   background-color: #e7332b;
@@ -66,12 +66,12 @@ body {
   margin-right: 30px;
 }
 
-.new a:hover {
+.new button:hover {
   background-color: white;
   color: #e7332b;
 }
 
-.experience a {
+.experience button {
   text-decoration: none;
   padding: 15px 30px;
   background-color: white;
@@ -80,7 +80,7 @@ body {
   margin-right: 30px;
 }
 
-.experience a:hover {
+.experience button:hover {
   background-color: #e7332b;
   color: white;
 }
@@ -230,13 +230,13 @@ footer {
     justify-content: center;
     align-items: center;
   }
-  .new a {
+  .new button {
     margin-right: 0px;
     margin: auto;
     margin-bottom: 3rem;
   }
 
-  .experience a {
+  .experience button {
     margin-right: 0px;
     margin: auto;
     justify-content: center;
