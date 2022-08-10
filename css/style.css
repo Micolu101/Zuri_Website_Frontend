@@ -195,7 +195,7 @@ footer {
 }
 
 /* Responsiveness for Mobile devices*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   #intro {
     padding-top: 7rem;
     margin-bottom: 8rem;
