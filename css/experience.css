@@ -50,6 +50,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-right: 15%;
+  justify-content: center;
 }
 
 .vetted h1 {
@@ -66,13 +67,67 @@ span {
 }
 
 .thick img {
-  width: 10%;
-  margin-left: 100%;
+  width: 20%;
+  margin-left: 75%;
+  margin-top: -10%;
+}
+
+.vetted p {
+  margin-top: 5%;
+  font-size: 24px;
+  color: #787878;
+  width: 80%;
+  left: 1.2;
+  font-weight: 400;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  width: 80%;
+  gap: 15px;
+}
+
+.hire2 {
+  background-color: #e7332b;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 60px;
+  border-bottom-right-radius: 8px;
+  border: none;
+}
+
+.join {
+  background-color: #585858;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 60px;
+  border-bottom-right-radius: 8px;
+  border: none;
 }
 
 .section-image {
   width: 30%;
   height: 35%;
   align-items: flex-end;
-  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.hero {
+  background-image: url(https://talent.zuri.team/static/media/bgsection2.063bd869082548bafa74.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 10% 8%;
+}
+
+.right-hero {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image {
+  width: 55%;
 }
