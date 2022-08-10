@@ -22,7 +22,8 @@ body {
   margin: auto;
   justify-content: center;
   align-items: center;
-  margin-bottom: 8rem;
+  padding: 5%;
+  margin-bottom: 6rem;
 }
 
 .hIntro {
@@ -199,6 +200,7 @@ footer {
   #intro {
     padding-top: 7rem;
     margin-bottom: 8rem;
+    width: 100%;
   }
 
   .logo1 {
